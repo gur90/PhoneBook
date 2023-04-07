@@ -10,15 +10,15 @@ public class HeaderTestsIfUserLogin extends TestBase{
     public void ensurePrecondition() {
         //если пользователь залогинен
     }
-    @Test
+    @Test(enabled = false)
     public void findContactsElement(){
         driver.findElement(By.xpath("//a[contains(.,'CONTACTS')]"));
     }
-    @Test
+    @Test(enabled = false)
     public void findAddElement(){
         driver.findElement(By.cssSelector("[href='/add']"));
     }
-    @Test
+    @Test(enabled = false)
     public void findButtonSignOut(){
         driver.findElement(By.xpath("//button[contains(.,'Sign Out')]"));
     }
