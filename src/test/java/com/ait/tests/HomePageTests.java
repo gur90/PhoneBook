@@ -1,4 +1,4 @@
-package com.ait.phonebook;
+package com.ait.tests;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -8,7 +8,7 @@ public class HomePageTests extends TestBase {
     public void openHomePageTest() {
         //isHomeComponentPresent();
         //isHomeComponentPresent2();
-        Assert.assertTrue(isHomeComponentPresent());
+        Assert.assertTrue(app.getHome().isHomeComponentPresent());
     }
 
 }
