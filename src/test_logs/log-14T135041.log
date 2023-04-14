@@ -1,0 +1,14 @@
+568  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\79515\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+2084 [main] INFO  c.a.phonebook.fw.ApplicationManager -- All test starts in Chrome
+3337 [main] INFO  c.a.phonebook.fw.ApplicationManager -- Current URL ---> https://telranedu.web.app/home
+3492 [main] INFO  com.ait.tests.TestBase -- Start testaddContactPositiveTests with data: []
+6651 [main] INFO  com.ait.tests.TestBase -- Passed: addContactPositiveTests
+6651 [main] INFO  com.ait.tests.TestBase -- =====================
+6652 [main] INFO  com.ait.tests.TestBase -- Start testaddContactWithInvalidEmailNegativeTests with data: []
+27168 [main] INFO  com.ait.tests.TestBase -- Failed: addContactWithInvalidEmailNegativeTests Screenshot: C:\Users\79515\QA22_Projects\PhoneBook\screenshots\screen1681469468551.png
+27169 [main] INFO  com.ait.tests.TestBase -- =====================
+27170 [main] INFO  com.ait.tests.TestBase -- Start testaddContactWithInvalidPhoneNegativeTests with data: []
+28984 [main] INFO  com.ait.tests.TestBase -- Passed: addContactWithInvalidPhoneNegativeTests
+28984 [main] INFO  com.ait.tests.TestBase -- =====================

@@ -1,0 +1,14 @@
+545  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\79515\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+2041 [main] INFO  c.a.phonebook.fw.ApplicationManager -- All test starts in Chrome
+3690 [main] INFO  c.a.phonebook.fw.ApplicationManager -- Current URL ---> https://telranedu.web.app/home
+3847 [main] INFO  com.ait.tests.TestBase -- Start testfindAddElement with data: []
+5513 [main] INFO  com.ait.tests.TestBase -- Passed: findAddElement
+5513 [main] INFO  com.ait.tests.TestBase -- =====================
+5514 [main] INFO  com.ait.tests.TestBase -- Start testfindButtonSignOut with data: []
+16321 [main] INFO  com.ait.tests.TestBase -- Passed: findButtonSignOut
+16322 [main] INFO  com.ait.tests.TestBase -- =====================
+16323 [main] INFO  com.ait.tests.TestBase -- Start testfindContactsElement with data: []
+27099 [main] INFO  com.ait.tests.TestBase -- Passed: findContactsElement
+27099 [main] INFO  com.ait.tests.TestBase -- =====================

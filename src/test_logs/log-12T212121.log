@@ -1,0 +1,28 @@
+594  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\79515\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+2943 [main] INFO  com.ait.tests.TestBase -- Start testaddContactPositiveFromCSVTests with data: [Contact{name='Oliver', lastName='Kan', phone='98765432123', email='kan@gm.co', address='Berlin', description='goalkeeper'}]
+5619 [main] INFO  com.ait.tests.TestBase -- Passed: addContactPositiveFromCSVTests
+5619 [main] INFO  com.ait.tests.TestBase -- =====================
+5620 [main] INFO  com.ait.tests.TestBase -- Start testaddContactPositiveFromCSVTests with data: [Contact{name='Max', lastName='Rabbe', phone='98765432126', email='max@gm.co', address='Berlin', description='goalkeeper'}]
+26195 [main] INFO  com.ait.tests.TestBase -- Failed: addContactPositiveFromCSVTests Screenshot: C:\Users\79515\QA22_Projects\PhoneBook\screenshots\screen1681323707542.png
+26195 [main] INFO  com.ait.tests.TestBase -- =====================
+26196 [main] INFO  com.ait.tests.TestBase -- Start testaddContactPositiveFromCSVTests with data: [Contact{name='Tony', lastName='Cross', phone='98765432128', email='tony@gm.co', address='Berlin', description='goalkeeper'}]
+27911 [main] INFO  com.ait.tests.TestBase -- Passed: addContactPositiveFromCSVTests
+27911 [main] INFO  com.ait.tests.TestBase -- =====================
+27942 [AsyncHttpClient-1-4] WARN  o.a.netty.handler.WebSocketHandler -- onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)

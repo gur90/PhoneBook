@@ -1,0 +1,12 @@
+551  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\79515\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+2076 [main] INFO  c.a.phonebook.fw.ApplicationManager -- All test starts in Chrome
+3193 [main] INFO  c.a.phonebook.fw.ApplicationManager -- Current URL ---> https://telranedu.web.app/home
+3342 [main] INFO  com.ait.tests.TestBase -- Start testloginRegisteredUserPositiveTest with data: []
+5014 [main] INFO  com.ait.tests.TestBase -- User logged in. Actual result: true
+5017 [main] INFO  com.ait.tests.TestBase -- Passed: loginRegisteredUserPositiveTest
+5018 [main] INFO  com.ait.tests.TestBase -- =====================
+5019 [main] INFO  com.ait.tests.TestBase -- Start testloginRegisteredUserWithInvalidNegativetiveTest with data: []
+15905 [main] INFO  com.ait.tests.TestBase -- Passed: loginRegisteredUserWithInvalidNegativetiveTest
+15905 [main] INFO  com.ait.tests.TestBase -- =====================

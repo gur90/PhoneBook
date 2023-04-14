@@ -3,26 +3,41 @@ package com.ait.phonebook.fw;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.time.Duration;
 
 public class ApplicationManager {
     public static WebDriver driver;
+     String browser;
     UserHelper user;
     ContactHelper contact;
     HeaderHelper header;
     HomePageHelper home;
-
+Logger logger= LoggerFactory.getLogger(ApplicationManager.class);
     public ApplicationManager() {
         super();
     }
 
+    public ApplicationManager(String browser) {
+        this.browser=browser;
+    }
+
     public void init() {
         System.err.close();
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("remote-allow-origins=*");
-        driver = new ChromeDriver(options);
+        if(browser.equalsIgnoreCase("chrome")) {
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("remote-allow-origins=*");
+            driver = new ChromeDriver(options);
+            logger.info("All test starts in Chrome");
+        }else if (browser.equalsIgnoreCase("firefox")){
+            driver= new FirefoxDriver();
+            logger.info("All test starts in FireFox");
+        }
         driver.get("https://telranedu.web.app/");
+        logger.info("Current URL ---> "+ driver.getCurrentUrl());
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 

@@ -1,18 +1,21 @@
 package com.ait.tests;
 
-import com.ait.phonebook.fw.BaseHelper;
+import com.ait.phonebook.fw.DataProviderContact;
 import com.ait.phonebook.model.Contact;
 import com.ait.phonebook.model.User;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class AddContactTests extends TestBase{
+public class AddContactTests extends TestBase {
+
+
+
     @BeforeMethod
-    public void ensurePrecondition(){
+    public void ensurePrecondition() {
         if (!app.getHeader().isLoginLinkPresent()) {
             app.getHeader().clickOnSignOutButton();
-        }else{
+        } else {
             app.getHeader().clickOnLoginLink();
 
             app.getUser().fillLoginRegForm(new User()
@@ -21,8 +24,9 @@ public class AddContactTests extends TestBase{
             app.getUser().clickOnLoginButton();
         }
     }
+
     @Test
-    public void addContactPositiveTests(){
+    public void addContactPositiveTests() {
         app.getHeader().pause(100);
         app.getHeader().clickOnAddLink();
         app.getContact().addContact(new Contact()
@@ -36,8 +40,34 @@ public class AddContactTests extends TestBase{
         app.getContact().clickOnSaveButton();
         Assert.assertTrue(app.getContact().isContactCreated("Karl"));
     }
+
+    @Test(enabled = false,dataProvider = "addNewContact",dataProviderClass = DataProviderContact.class)
+    public void addContactPositiveFromDataProviderTests(String name, String sureName, String phone, String email, String address, String desc) {
+        app.getHeader().pause(100);
+        app.getHeader().clickOnAddLink();
+        app.getContact().addContact(new Contact()
+                .setName(name)
+                .setLastName(sureName)
+                .setPhone(phone)
+                .setEmail(email)
+                .setAddress(address)
+                .setDescription(desc));
+
+        app.getContact().clickOnSaveButton();
+        app.getContact().removeContact();
+    }
+    @Test(enabled = false,dataProvider = "addNewContactFromCsv",dataProviderClass = DataProviderContact.class)
+    public void addContactPositiveFromCSVTests(Contact contact) {
+        app.getHeader().pause(100);
+        app.getHeader().clickOnAddLink();
+        app.getContact().addContact(contact);
+
+        app.getContact().clickOnSaveButton();
+        app.getContact().removeContact();
+    }
+
     @Test
-    public void addContactWithInvalidEmailNegativeTests(){
+    public void addContactWithInvalidEmailNegativeTests() {
         app.getHeader().clickOnAddLink();
         app.getContact().addContact(new Contact().setName("Anna")
                 .setLastName("Rogozina")
@@ -47,8 +77,9 @@ public class AddContactTests extends TestBase{
         app.getContact().clickOnSaveButton();
         Assert.assertTrue(app.getContact().isAlertPresent());
     }
+
     @Test
-    public void addContactWithInvalidPhoneNegativeTests(){
+    public void addContactWithInvalidPhoneNegativeTests() {
         app.getHeader().pause(100);
         app.getHeader().clickOnAddLink();
         app.getContact().addContact(new Contact().setName("Anna")
@@ -59,5 +90,28 @@ public class AddContactTests extends TestBase{
                 .setDescription("Code"));
         app.getContact().clickOnSaveButton();
         Assert.assertTrue(app.getContact().isAlertPresent());
+    }
+
+    public void loginNegative() {
+        app.getHeader().clickOnLoginLink();
+        //driver.findElement(By.xpath("//a[contains(.,'LOGIN')]")).click();
+        Assert.assertTrue(app.getUser().isLoginFormPresent());
+        app.getUser().fillLoginRegForm(new User()
+                .setEmail("annettgur+1@rambler.ru")
+                .setPassword("722063gurina!A"));
+        app.getUser().clickOnLoginButton();
+        Assert.assertTrue(app.getUser().isAlertPresent());
+    }
+
+    public void loginPositiv() {
+        app.getHeader().clickOnLoginLink();
+        //driver.findElement(By.xpath("//a[contains(.,'LOGIN')]")).click();
+        Assert.assertTrue(app.getUser().isLoginFormPresent());
+        app.getUser().fillLoginRegForm(new User()
+                .setEmail("annettgur+1@rambler.ru")
+                .setPassword("722063gurina!A_"));
+        app.getUser().clickOnLoginButton();
+        Assert.assertTrue(app.getHeader().isSignOutButtonPresent());
+        logger.info("User logged in. Actual result: "+ app.getHeader().isSignOutButtonPresent());
     }
 }

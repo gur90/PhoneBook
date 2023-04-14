@@ -1,0 +1,9 @@
+627  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\79515\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+3097 [main] INFO  com.ait.tests.TestBase -- Start testaddContactPositiveFromDataProviderTests
+5711 [main] INFO  com.ait.tests.TestBase -- Stop test addContactPositiveFromDataProviderTests
+5712 [main] INFO  com.ait.tests.TestBase -- Start testaddContactPositiveFromDataProviderTests
+25924 [main] INFO  com.ait.tests.TestBase -- Stop test addContactPositiveFromDataProviderTests
+25925 [main] INFO  com.ait.tests.TestBase -- Start testaddContactPositiveFromDataProviderTests
+27377 [main] INFO  com.ait.tests.TestBase -- Stop test addContactPositiveFromDataProviderTests
