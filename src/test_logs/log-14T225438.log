@@ -1,0 +1,20 @@
+585  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\79515\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+2213 [main] INFO  c.a.phonebook.fw.ApplicationManager -- All test starts in Chrome
+2625 [main] INFO  c.a.phonebook.fw.ApplicationManager -- Current URL ---> https://telranedu.web.app/home
+2784 [main] INFO  com.ait.tests.TestBase -- Start testfindAboutElement with data: []
+2800 [main] INFO  com.ait.tests.TestBase -- Passed: findAboutElement
+2800 [main] INFO  com.ait.tests.TestBase -- =====================
+2801 [main] INFO  com.ait.tests.TestBase -- Start testfindHeaderContainer with data: []
+2811 [main] INFO  com.ait.tests.TestBase -- Passed: findHeaderContainer
+2812 [main] INFO  com.ait.tests.TestBase -- =====================
+2813 [main] INFO  com.ait.tests.TestBase -- Start testfindHomeElement with data: []
+2824 [main] INFO  com.ait.tests.TestBase -- Passed: findHomeElement
+2824 [main] INFO  com.ait.tests.TestBase -- =====================
+2826 [main] INFO  com.ait.tests.TestBase -- Start testfindLoginElement with data: []
+2837 [main] INFO  com.ait.tests.TestBase -- Passed: findLoginElement
+2837 [main] INFO  com.ait.tests.TestBase -- =====================
+2838 [main] INFO  com.ait.tests.TestBase -- Start testfindTitlePhoneBook with data: []
+2848 [main] INFO  com.ait.tests.TestBase -- Passed: findTitlePhoneBook
+2848 [main] INFO  com.ait.tests.TestBase -- =====================

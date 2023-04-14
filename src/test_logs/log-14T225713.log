@@ -1,0 +1,84 @@
+626  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\79515\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+2204 [main] INFO  c.a.phonebook.fw.ApplicationManager -- All test starts in Chrome
+2708 [main] INFO  c.a.phonebook.fw.ApplicationManager -- Current URL ---> https://telranedu.web.app/home
+2870 [main] INFO  com.ait.tests.TestBase -- Start testopenHomePageTest with data: []
+2892 [main] INFO  com.ait.tests.TestBase -- Passed: openHomePageTest
+2892 [main] INFO  com.ait.tests.TestBase -- =====================
+2900 [main] INFO  com.ait.tests.TestBase -- Start testnewUserRegistrationNegativeRest with data: [User{email='ivanushco@gm.co', password='5606'}]
+4278 [main] INFO  com.ait.tests.TestBase -- Passed: newUserRegistrationNegativeRest
+4279 [main] INFO  com.ait.tests.TestBase -- =====================
+4280 [main] INFO  com.ait.tests.TestBase -- Start testnewUserRegistrationNegativeRest with data: [User{email='ivanushco+9@gm.co', password='aaaaa'}]
+5126 [main] INFO  com.ait.tests.TestBase -- Passed: newUserRegistrationNegativeRest
+5126 [main] INFO  com.ait.tests.TestBase -- =====================
+5127 [main] INFO  com.ait.tests.TestBase -- Start testnewUserRegistrationPositiveRest with data: []
+5644 [main] INFO  com.ait.tests.TestBase -- Start testfindAboutElement with data: []
+5655 [main] INFO  com.ait.tests.TestBase -- Passed: findAboutElement
+5655 [main] INFO  com.ait.tests.TestBase -- =====================
+5656 [main] INFO  com.ait.tests.TestBase -- Start testfindHeaderContainer with data: []
+5666 [main] INFO  com.ait.tests.TestBase -- Passed: findHeaderContainer
+5666 [main] INFO  com.ait.tests.TestBase -- =====================
+5667 [main] INFO  com.ait.tests.TestBase -- Start testfindHomeElement with data: []
+5679 [main] INFO  com.ait.tests.TestBase -- Passed: findHomeElement
+5680 [main] INFO  com.ait.tests.TestBase -- =====================
+5681 [main] INFO  com.ait.tests.TestBase -- Start testfindLoginElement with data: []
+5695 [main] INFO  com.ait.tests.TestBase -- Passed: findLoginElement
+5695 [main] INFO  com.ait.tests.TestBase -- =====================
+5696 [main] INFO  com.ait.tests.TestBase -- Start testfindTitlePhoneBook with data: []
+5708 [main] INFO  com.ait.tests.TestBase -- Passed: findTitlePhoneBook
+5709 [main] INFO  com.ait.tests.TestBase -- =====================
+5710 [main] INFO  com.ait.tests.TestBase -- Start testfindAddElement with data: []
+6414 [main] INFO  com.ait.tests.TestBase -- Passed: findAddElement
+6414 [main] INFO  com.ait.tests.TestBase -- =====================
+6415 [main] INFO  com.ait.tests.TestBase -- Start testfindButtonSignOut with data: []
+17384 [main] INFO  com.ait.tests.TestBase -- Passed: findButtonSignOut
+17385 [main] INFO  com.ait.tests.TestBase -- =====================
+17386 [main] INFO  com.ait.tests.TestBase -- Start testfindContactsElement with data: []
+28329 [main] INFO  com.ait.tests.TestBase -- Passed: findContactsElement
+28329 [main] INFO  com.ait.tests.TestBase -- =====================
+28332 [main] INFO  com.ait.tests.TestBase -- Start testaddContactPositiveFromCSVTests with data: [Contact{name='Oliver', lastName='Kan', phone='98765432123', email='kan@gm.co', address='Berlin', description='goalkeeper'}]
+48900 [main] INFO  com.ait.tests.TestBase -- Failed: addContactPositiveFromCSVTests Screenshot: C:\Users\79515\QA22_Projects\PhoneBook\screenshots\screen1681502282632.png
+48900 [main] INFO  com.ait.tests.TestBase -- =====================
+48901 [main] INFO  com.ait.tests.TestBase -- Start testaddContactPositiveFromCSVTests with data: [Contact{name='Max', lastName='Rabbe', phone='98765432126', email='max@gm.co', address='Berlin', description='goalkeeper'}]
+50956 [main] INFO  com.ait.tests.TestBase -- Passed: addContactPositiveFromCSVTests
+50956 [main] INFO  com.ait.tests.TestBase -- =====================
+50956 [main] INFO  com.ait.tests.TestBase -- Start testaddContactPositiveFromCSVTests with data: [Contact{name='Tony', lastName='Cross', phone='98765432128', email='tony@gm.co', address='Berlin', description='goalkeeper'}]
+71468 [main] INFO  com.ait.tests.TestBase -- Failed: addContactPositiveFromCSVTests Screenshot: C:\Users\79515\QA22_Projects\PhoneBook\screenshots\screen1681502305207.png
+71468 [main] INFO  com.ait.tests.TestBase -- =====================
+71470 [main] INFO  com.ait.tests.TestBase -- Start testaddContactPositiveTests with data: []
+73340 [main] INFO  com.ait.tests.TestBase -- Passed: addContactPositiveTests
+73340 [main] INFO  com.ait.tests.TestBase -- =====================
+73342 [main] INFO  com.ait.tests.TestBase -- Start testaddContactWithInvalidEmailNegativeTests with data: []
+93799 [main] INFO  com.ait.tests.TestBase -- Failed: addContactWithInvalidEmailNegativeTests Screenshot: C:\Users\79515\QA22_Projects\PhoneBook\screenshots\screen1681502327538.png
+93799 [main] INFO  com.ait.tests.TestBase -- =====================
+93800 [main] INFO  com.ait.tests.TestBase -- Start testaddContactWithInvalidPhoneNegativeTests with data: []
+95835 [main] INFO  com.ait.tests.TestBase -- Passed: addContactWithInvalidPhoneNegativeTests
+95835 [main] INFO  com.ait.tests.TestBase -- =====================
+95837 [main] INFO  com.ait.tests.TestBase -- Start testremoveContactTest with data: []
+126308 [main] INFO  com.ait.tests.TestBase -- Failed: removeContactTest Screenshot: C:\Users\79515\QA22_Projects\PhoneBook\screenshots\screen1681502360046.png
+126308 [main] INFO  com.ait.tests.TestBase -- =====================
+126309 [main] INFO  com.ait.tests.TestBase -- Start testloginRegisteredUserPositiveTest with data: []
+127371 [main] INFO  com.ait.tests.TestBase -- User logged in. Actual result: true
+127372 [main] INFO  com.ait.tests.TestBase -- Passed: loginRegisteredUserPositiveTest
+127373 [main] INFO  com.ait.tests.TestBase -- =====================
+127373 [main] INFO  com.ait.tests.TestBase -- Start testloginRegisteredUserWithInvalidNegativetiveTest with data: []
+138734 [main] INFO  com.ait.tests.TestBase -- Passed: loginRegisteredUserWithInvalidNegativetiveTest
+138734 [main] INFO  com.ait.tests.TestBase -- =====================
+138774 [AsyncHttpClient-1-4] WARN  o.a.netty.handler.WebSocketHandler -- onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.buffer.WrappedByteBuf.writeBytes(WrappedByteBuf.java:821)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)

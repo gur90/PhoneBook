@@ -1,11 +1,16 @@
-883  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+593  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
   C:\Users\79515\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
 
-4985 [main] INFO  com.ait.tests.TestBase -- Start testloginRegisteredUserPositiveTest with data: []
-6649 [main] INFO  com.ait.tests.TestBase -- User logged in. Actual result: true
-6653 [main] INFO  com.ait.tests.TestBase -- Passed: loginRegisteredUserPositiveTest
-6654 [main] INFO  com.ait.tests.TestBase -- =====================
-6739 [AsyncHttpClient-1-4] WARN  o.a.netty.handler.WebSocketHandler -- onError
+2144 [main] INFO  c.a.phonebook.fw.ApplicationManager -- All test starts in Chrome
+2608 [main] INFO  c.a.phonebook.fw.ApplicationManager -- Current URL ---> https://telranedu.web.app/home
+2772 [main] INFO  com.ait.tests.TestBase -- Start testnewUserRegistrationNegativeRest with data: [User{email='ivanushco@gm.co', password='5606'}]
+4134 [main] INFO  com.ait.tests.TestBase -- Passed: newUserRegistrationNegativeRest
+4134 [main] INFO  com.ait.tests.TestBase -- =====================
+4136 [main] INFO  com.ait.tests.TestBase -- Start testnewUserRegistrationNegativeRest with data: [User{email='ivanushco+9@gm.co', password='aaaaa'}]
+4974 [main] INFO  com.ait.tests.TestBase -- Passed: newUserRegistrationNegativeRest
+4974 [main] INFO  com.ait.tests.TestBase -- =====================
+4976 [main] INFO  com.ait.tests.TestBase -- Start testnewUserRegistrationPositiveRest with data: []
+5553 [AsyncHttpClient-1-4] WARN  o.a.netty.handler.WebSocketHandler -- onError
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
 	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)

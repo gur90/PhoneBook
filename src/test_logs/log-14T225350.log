@@ -1,13 +1,12 @@
-584  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+638  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
   C:\Users\79515\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
 
-2988 [main] INFO  com.ait.tests.TestBase -- Start testaddContactPositiveFromCSVTests with data: [Contact{name='Oliver', lastName='Kan', phone='98765432123', email='kan@gm.co', address='Berlin', description='goalkeeper'}]
-5534 [main] INFO  com.ait.tests.TestBase -- Stop test addContactPositiveFromCSVTests
-5536 [main] INFO  com.ait.tests.TestBase -- Start testaddContactPositiveFromCSVTests with data: [Contact{name='Max', lastName='Rabbe', phone='98765432126', email='max@gm.co', address='Berlin', description='goalkeeper'}]
-25779 [main] INFO  com.ait.tests.TestBase -- Stop test addContactPositiveFromCSVTests
-25780 [main] INFO  com.ait.tests.TestBase -- Start testaddContactPositiveFromCSVTests with data: [Contact{name='Tony', lastName='Cross', phone='98765432128', email='tony@gm.co', address='Berlin', description='goalkeeper'}]
-27462 [main] INFO  com.ait.tests.TestBase -- Stop test addContactPositiveFromCSVTests
-27488 [AsyncHttpClient-1-4] WARN  o.a.netty.handler.WebSocketHandler -- onError
+2239 [main] INFO  c.a.phonebook.fw.ApplicationManager -- All test starts in Chrome
+2659 [main] INFO  c.a.phonebook.fw.ApplicationManager -- Current URL ---> https://telranedu.web.app/home
+2816 [main] INFO  com.ait.tests.TestBase -- Start testaddContactWithInvalidPhoneNegativeTests with data: []
+5196 [main] INFO  com.ait.tests.TestBase -- Passed: addContactWithInvalidPhoneNegativeTests
+5197 [main] INFO  com.ait.tests.TestBase -- =====================
+5252 [AsyncHttpClient-1-4] WARN  o.a.netty.handler.WebSocketHandler -- onError
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
 	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)

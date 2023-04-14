@@ -1,0 +1,8 @@
+615  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\79515\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+2175 [main] INFO  c.a.phonebook.fw.ApplicationManager -- All test starts in Chrome
+2601 [main] INFO  c.a.phonebook.fw.ApplicationManager -- Current URL ---> https://telranedu.web.app/home
+2753 [main] INFO  com.ait.tests.TestBase -- Start testaddContactPositiveTests with data: []
+5178 [main] INFO  com.ait.tests.TestBase -- Passed: addContactPositiveTests
+5178 [main] INFO  com.ait.tests.TestBase -- =====================

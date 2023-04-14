@@ -1,0 +1,8 @@
+574  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\79515\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+2377 [main] INFO  c.a.phonebook.fw.ApplicationManager -- All test starts in Chrome
+2887 [main] INFO  c.a.phonebook.fw.ApplicationManager -- Current URL ---> https://telranedu.web.app/home
+3051 [main] INFO  com.ait.tests.TestBase -- Start testnewUserRegistrationPositiveRest with data: []
+4334 [main] INFO  com.ait.tests.TestBase -- Passed: newUserRegistrationPositiveRest
+4335 [main] INFO  com.ait.tests.TestBase -- =====================

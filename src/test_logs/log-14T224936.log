@@ -1,9 +1,15 @@
-559  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+612  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
   C:\Users\79515\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
 
-2037 [main] INFO  c.a.phonebook.fw.ApplicationManager -- All test starts in Chrome
-3211 [main] INFO  c.a.phonebook.fw.ApplicationManager -- Current URL ---> https://telranedu.web.app/home
-3384 [AsyncHttpClient-1-4] WARN  o.a.netty.handler.WebSocketHandler -- onError
+2161 [main] INFO  c.a.phonebook.fw.ApplicationManager -- All test starts in Chrome
+2658 [main] INFO  c.a.phonebook.fw.ApplicationManager -- Current URL ---> https://telranedu.web.app/home
+2819 [main] INFO  com.ait.tests.TestBase -- Start testnewUserRegistrationNegativeRest with data: [User{email='ivanushco@gm.co', password='5606'}]
+4196 [main] INFO  com.ait.tests.TestBase -- Passed: newUserRegistrationNegativeRest
+4196 [main] INFO  com.ait.tests.TestBase -- =====================
+4198 [main] INFO  com.ait.tests.TestBase -- Start testnewUserRegistrationNegativeRest with data: [User{email='ivanushco+9@gm.co', password='aaaaa'}]
+5046 [main] INFO  com.ait.tests.TestBase -- Passed: newUserRegistrationNegativeRest
+5046 [main] INFO  com.ait.tests.TestBase -- =====================
+5107 [AsyncHttpClient-1-4] WARN  o.a.netty.handler.WebSocketHandler -- onError
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
 	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)

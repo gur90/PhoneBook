@@ -1,0 +1,8 @@
+592  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\79515\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+2165 [main] INFO  c.a.phonebook.fw.ApplicationManager -- All test starts in Chrome
+2715 [main] INFO  c.a.phonebook.fw.ApplicationManager -- Current URL ---> https://telranedu.web.app/home
+2876 [main] INFO  com.ait.tests.TestBase -- Start testopenHomePageTest with data: []
+2896 [main] INFO  com.ait.tests.TestBase -- Passed: openHomePageTest
+2897 [main] INFO  com.ait.tests.TestBase -- =====================

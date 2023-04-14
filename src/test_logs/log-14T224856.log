@@ -1,9 +1,9 @@
-548  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+622  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
   C:\Users\79515\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
 
-2134 [main] INFO  c.a.phonebook.fw.ApplicationManager -- All test starts in Chrome
-3223 [main] INFO  c.a.phonebook.fw.ApplicationManager -- Current URL ---> https://telranedu.web.app/home
-3395 [AsyncHttpClient-1-4] WARN  o.a.netty.handler.WebSocketHandler -- onError
+2251 [main] INFO  c.a.phonebook.fw.ApplicationManager -- All test starts in Chrome
+2690 [main] INFO  c.a.phonebook.fw.ApplicationManager -- Current URL ---> https://telranedu.web.app/home
+2879 [AsyncHttpClient-1-4] WARN  o.a.netty.handler.WebSocketHandler -- onError
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
 	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)

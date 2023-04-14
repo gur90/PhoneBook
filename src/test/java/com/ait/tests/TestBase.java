@@ -48,7 +48,6 @@ public class TestBase extends ApplicationManager{
 
     public void loginNegative() {
         app.getHeader().clickOnLoginLink();
-        //driver.findElement(By.xpath("//a[contains(.,'LOGIN')]")).click();
         Assert.assertTrue(app.getUser().isLoginFormPresent());
         app.getUser().fillLoginRegForm(new User()
                 .setEmail("annettgur+1@rambler.ru")
@@ -59,7 +58,6 @@ public class TestBase extends ApplicationManager{
 
     public void loginPositiv() {
         app.getHeader().clickOnLoginLink();
-        //driver.findElement(By.xpath("//a[contains(.,'LOGIN')]")).click();
         Assert.assertTrue(app.getUser().isLoginFormPresent());
         app.getUser().fillLoginRegForm(new User()
                 .setEmail("annettgur+1@rambler.ru")
