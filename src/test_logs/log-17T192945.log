@@ -1,0 +1,18 @@
+2166 [Test worker] INFO  c.a.phonebook.fw.ApplicationManager -- All test starts in Chrome
+2551 [Test worker] INFO  c.a.phonebook.fw.ApplicationManager -- Current URL ---> https://telranedu.web.app/home
+2736 [Test worker] INFO  com.ait.tests.TestBase -- Start testaddContactPositiveFromCSVTests with data: [Contact{name='Oliver', lastName='Kan', phone='98765432123', email='kan@gm.co', address='Berlin', description='goalkeeper'}]
+5187 [Test worker] INFO  com.ait.tests.TestBase -- Passed: addContactPositiveFromCSVTests
+5187 [Test worker] INFO  com.ait.tests.TestBase -- =====================
+5188 [Test worker] INFO  com.ait.tests.TestBase -- Start testaddContactPositiveFromCSVTests with data: [Contact{name='Max', lastName='Rabbe', phone='98765432126', email='max@gm.co', address='Berlin', description='goalkeeper'}]
+25734 [Test worker] INFO  com.ait.tests.TestBase -- Failed: addContactPositiveFromCSVTests Screenshot: C:\Users\79515\QA22_Projects\PhoneBook\screenshots\screen1681749010782.png
+25734 [Test worker] INFO  com.ait.tests.TestBase -- =====================
+25734 [Test worker] INFO  com.ait.tests.TestBase -- Start testaddContactPositiveFromCSVTests with data: [Contact{name='Tony', lastName='Cross', phone='98765432128', email='tony@gm.co', address='Berlin', description='goalkeeper'}]
+27405 [Test worker] INFO  com.ait.tests.TestBase -- Passed: addContactPositiveFromCSVTests
+27406 [Test worker] INFO  com.ait.tests.TestBase -- =====================
+27407 [Test worker] INFO  com.ait.tests.TestBase -- Start testaddContactPositiveTests with data: []
+43329 [Test worker] INFO  com.ait.tests.TestBase -- Start testnewUserRegistrationNegativeRest with data: [User{email='ivanushco@gm.co', password='5606'}]
+43339 [Test worker] INFO  com.ait.tests.TestBase -- Start testfindAboutElement with data: []
+43354 [Test worker] INFO  com.ait.tests.TestBase -- Start testfindAddElement with data: []
+43365 [Test worker] INFO  com.ait.tests.TestBase -- Start testopenHomePageTest with data: []
+43377 [Test worker] INFO  com.ait.tests.TestBase -- Start testloginRegisteredUserPositiveTest with data: []
+43387 [Test worker] INFO  com.ait.tests.TestBase -- Start testremoveContactTest with data: []
