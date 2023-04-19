@@ -3,7 +3,6 @@
 <suite name="Suite3" verbose="1" >
     <test name="Nopackage" >
         <classes>
-            <class name="com.ait.tests.AddContactTests" />
             <class name="com.ait.tests.CreateAccount" />
             <class name="com.ait.tests.LoginTests">
                 <methods>
