@@ -7,7 +7,7 @@
             <class name="com.ait.tests.CreateAccount" />
             <class name="com.ait.tests.LoginTests">
                 <methods>
-                    <include name=".*Negative.*"></include>
+                    <exclude name=".*Positive.*"></exclude>
                 </methods>
             </class>
         </classes>
