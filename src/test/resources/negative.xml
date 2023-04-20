@@ -4,7 +4,7 @@
     <test name="Nopackage" >
         <classes>
             <class name="com.ait.tests.CreateAccount" />
-            <class name="com.ait.tests.LoginTests">
+            <class name="com.ait.tests.LoginTests" >
                 <methods>
                     <exclude name=".*Positive.*"></exclude>
                 </methods>
