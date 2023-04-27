@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ait.tests.LoginTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-20T11:03:17" hostname="LAPTOP-MOESS1AM" time="1.522">
+  <properties/>
+  <testcase name="loginRegisteredUserWithInvalidNegativetiveTest" classname="com.ait.tests.LoginTests" time="1.522"/>
+  <system-out><![CDATA[14:03:17.183 [Test worker] INFO  com.ait.tests.TestBase -- Start testloginRegisteredUserWithInvalidNegativetiveTest with data: []
+14:03:18.722 [Test worker] INFO  com.ait.tests.TestBase -- Passed: loginRegisteredUserWithInvalidNegativetiveTest
+14:03:18.723 [Test worker] INFO  com.ait.tests.TestBase -- =====================
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
